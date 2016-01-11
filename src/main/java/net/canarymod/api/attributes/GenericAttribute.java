@@ -8,30 +8,24 @@ import net.canarymod.Canary;
  */
 @Beta
 public enum GenericAttribute {
+
     MAXHEALTH("generic.maxHealth"),
-    //
     FOLLOWRANGE("generic.followRange"),
-    //
     MOVEMENTSPEED("generic.movementSpeed"),
-    //
     ATTACKDAMAGE("generic.attackDamage"),
-    //
-    KNOCKBACKRESIST("generic.knockbackResistance"),
-    //
-    ;
+    KNOCKBACKRESIST("generic.knockbackResistance");
 
     private final String nmsName;
 
-    private GenericAttribute(String nmsName) {
+    GenericAttribute(String nmsName) {
         this.nmsName = nmsName;
     }
 
     public Attribute getAttribute() {
-        return Canary.factory().getAttributeFactory().getGenericAttribute(nmsName);
+        return Canary.factory().getAttributeFactory().getGenericAttribute(this.nmsName);
     }
 
     public String getNativeName() {
-        return nmsName;
+        return this.nmsName;
     }
-
 }
