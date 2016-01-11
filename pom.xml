@@ -6,17 +6,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>net.canarymod</groupId>
-    <artifactId>CanaryLib</artifactId>
+    <groupId>org.neptunepowered</groupId>
+    <artifactId>FlintLib</artifactId>
     <packaging>jar</packaging>
-    <version>1.2.1-SNAPSHOT</version>
-    <name>CanaryLib</name>
-    <url>http://www.canarymod.net</url>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>FlintLib</name>
+    <url>https://www.neptunepowered.org/</url>
     <inceptionYear>2012</inceptionYear>
 
     <organization>
-        <name>CanaryMod Team</name>
-        <url>http://canarymod.net</url>
+        <name>FlintPowered (NeptunePowered)</name>
+        <url>https://www.neptunepowered.org/</url>
     </organization>
 
     <properties>
@@ -82,20 +82,15 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/CanaryModTeam/CanaryLib.git</connection>
-        <url>https://github.com/CanaryModTeam/CanaryLib</url>
-        <developerConnection>scm:git:git@github.com:CanaryModTeam/CanaryLib.git</developerConnection>
+        <connection>scm:git:git://github.com/FlintPowered/FlintLib.git</connection>
+        <url>https://github.com/FlintPowered/FlintLib</url>
+        <developerConnection>scm:git:git@github.com:FlintPowered/FlintLib.git</developerConnection>
     </scm>
 
     <issueManagement>
-        <url>https://github.com/CanaryModTeam/CanaryLib/issues</url>
+        <url>https://github.com/FlintPowered/FlintLib/issues</url>
         <system>GitHub</system>
     </issueManagement>
-
-    <ciManagement>
-        <system>Jenkins</system>
-        <url>http://ci.visualillusionsent.net/job/CanaryLib/</url>
-    </ciManagement>
 
     <repositories>
         <repository>

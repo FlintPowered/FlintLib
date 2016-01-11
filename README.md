@@ -1,67 +1,24 @@
-CanaryLib
-=========
+FlintLib
+========
 
-[![Build Status](https://ci.visualillusionsent.net/buildStatus/icon?job=CanaryLib)](https://ci.visualillusionsent.net/job/CanaryLib/)  
-[Latest Build](https://ci.visualillusionsent.net/job/CanaryLib/lastBuild/)  
-[Latest Successful Build](https://ci.visualillusionsent.net/job/CanaryLib/lastSuccessfulBuild/)  
-
-Canary is a Minecraft Server modification and library with built-in data management features as well as player permissions and groups management.
-Canary provides a stable and feature-rich framework that makes sure that plugins written today,
-will still work in months without the need of updating on each Minecraft update (Unless major changes are required to update to
-the new Minecraft Server version).
-As server owner, this allows you to spend more time on managing your server, making it awesome,  
-instead of waiting for all your plugins to update each time.  
-
-As a Plugin Developer, our mod allows you to concentrate on the things that make your plugins great and unique -
-you won’t ever need to bother about implementing data storage or resolving dependencies with other plugins.  
-We do the dirty work for you, you go and make amazing plugins. It’s as easy as that!  
-
-This repository contains the library/specifications.
-
+FlintLib is a community continuation of CanaryLib.
 
 Plugin Development
-=============
+==================
 
 Maven
 -------------
 
         <dependency>
-            <groupId>net.canarymod</groupId>
-            <artifactId>CanaryLib</artifactId>
-            <version>[1.0.0,)</version> <!-- Will always use the latest version found (including snapshots)-->
+            <groupId>org.neptunepowered</groupId>
+            <artifactId>FlintLib</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
 
 *Repository:*
 
-        <repository>
-            <id>vi-repo</id>
-            <name>Visual Illusions Repository</name>
-            <url>http://repo.visualillusionsent.net/repository/public/</url>
-        </repository>
-
-
-Non-Maven
--------------
-
-  VIUtils downloads can be found at [http://wiki.visualillusionsent.net/VIUtils](http://wiki.visualillusionsent.net/VIUtils#Downloads)
-
-
-Java Docs
--------------
-
-Primary: http://docs.visualillusionsent.net/CanaryLib/  
-Alternate: http://docs.larry1123.net/canarylib/  
-
-Pull Requests
-=============
-
-It helps us when others take the time to submit fixes rather than just pointing out bugs/inconsistencies.  
-However, We have standards for the sources we have. Things like formatting  
-and generally following the [Sun/Oracle coding standards](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html)  
-We also ask that you read and sign our [Contribitors License Agreement Form](https://dl.dropboxusercontent.com/u/25586491/Canary/CanaryModTeam_CLA.pdf)  
-(Please note that Mailing Address may be omitted and if submitted will only be used as an alternative contact method if anything should change in the project)  
-Signed CLA's can be sent to either email address listed in the form
+        Coming soon...
 
 Source Formatting and requirements
 -------------
@@ -78,15 +35,14 @@ Source Formatting and requirements
 * JavaDocs well written (as necessary)
 * Matching how we format statements
 
-        public class MyClass { //note the whitespace
+        public class MyClass {
+        
             public void function() {
                 if (something) {
                     // do stuff
-                }
-                else if (somethingElse) {
+                } else if (somethingElse) {
                     // do other stuff
-                }
-                else {
+                } else {
                     // do else stuff
                 }
             }
